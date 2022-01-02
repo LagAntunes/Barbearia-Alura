@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 #banner {
 	width:100%;
 }
@@ -54,6 +58,8 @@ ul {
 }
 /* fim da formatação da página inicial */
 
+
+
 /* início da formatação da página de produtos */
 .header-produtos {
 	background-color: #bbb;
@@ -80,5 +86,42 @@ nav a {
 	font-size: 20px;
 	text-decoration: none;
 	margin-left: 20px;
+}
+
+.produtos {
+	display: flex;
+	margin-top: 15px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.divisoes{
+	border: 1px solid goldenrod;
+	padding: 10px;
+	width: 29%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+}
+
+.divisoes h2 {
+	font-weight: bolder;
+	color: goldenrod;
+	font-size: 1.8em;
+	text-shadow: 1px 1px #bbb;
+}
+
+.texto {
+	margin-top: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.valor{
+	margin-top: 10px;
+	color: goldenrod;
+	text-shadow: 1px 1px #bbb;
+	font-size: 1.4em;
+	font-weight: bold;
 }
 /* fim da formatação da página de produtos */
