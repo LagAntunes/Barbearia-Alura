@@ -1,3 +1,9 @@
+/* início da formatação da página inicial */
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
 #banner {
 	width:100%;
 }
@@ -46,3 +52,33 @@ ul {
 .imagembeneficios {
 	width: 50%;
 }
+/* fim da formatação da página inicial */
+
+/* início da formatação da página de produtos */
+.header-produtos {
+	background-color: #bbb;
+}
+
+.logo {
+	width: 70%;
+	margin-left: 20px;
+}
+
+nav {
+	width: 30%;
+	position: absolute;
+	top: 110px;
+	right: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+/* fim da formatação da página de produtos */
