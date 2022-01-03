@@ -228,6 +228,51 @@ textarea {
 	border-color: goldenrod;
 }
 
+.tituloContato {
+	color: goldenrod;
+	text-shadow: 1px 1px black;
+}
+
+#contatoWhatsapp {
+	margin-bottom: 15px;
+	color: goldenrod;
+}
+
+#contatoEmail {
+	margin-bottom: 15px;
+}
+
+#contatoTelefone {
+	margin-bottom: 15px;
+}
+
+#checkbox {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+#cor {
+	color: goldenrod;
+}
+
+.escolha {
+	margin-bottom: 40px;
+}
+
+.escolha h3 {
+	color: goldenrod;
+	text-shadow: 1px 1px black;
+}
+
+.escolha select {
+	margin-top: 5px;
+	width: 40%;
+	padding: 3px;
+	color: goldenrod;
+	font-weight: bold;
+	font-size: large;
+}
+
 .botao {
 	width: 30%;
 	padding: 7px;

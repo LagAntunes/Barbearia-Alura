@@ -26,17 +26,33 @@
 
 			<form class="formulario">
                 <label for="nomeCompleto">Digite seu nome:</label><br>
-                <input type="text" id="nomeCompleto" placeholder="Digite seu nome aqui..."><br>
+                <input type="text" id="nomeCompleto" placeholder="Digite seu nome aqui..." required><br>
 
                 <label for="email">Digite seu E-mail:</label><br>
-                <input type="email" id="email" placeholder="Digite seu e-mail aqui..."><br>
+                <input type="email" id="email" placeholder="Digite seu e-mail aqui..." required><br>
 
                 <label for="telefone">Digite seu telefone aqui:</label><br>
-                <input type="text" id="telefone" placeholder="Digite seu número aqui..."><br>
+                <input type="tel" id="telefone" placeholder="Digite seu número aqui..." required><br>
 
-				<textarea placeholder="Escreva sua mensagem aqui..."></textarea><br>
+				<textarea placeholder="Escreva sua mensagem aqui..." required></textarea><br>
 
-                <input type="submit" value="Envia ae!!!" class="botao">
+				<h3 class="tituloContato">Como gostaria de receber nosso contato?</h3><br>
+				<input type="radio" name="opçãoContato" id="contatoWhatsapp"><label for="contatoWhatsapp"> WhatsApp</label><br>
+				<input type="radio" name="opçãoContato" id="contatoEmail"><label for="contatoEmail"> E-mail</label><br>
+				<input type="radio" name="opçãoContato" id="contatoTelefone"><label for="contatoTelefone"> Telefone</label><br>
+
+				<input type="checkbox" id="checkbox"><label for="checkbox" id="cor"> Marque aqui para receber nossas novidades em seu e-mail</label><br>
+
+				<div class="escolha">
+					<h3>Que horário gostaria de ser atendido?</h3>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</div>
+			
+                <input type="submit" value="Envie sua mensagem" class="botao">
             </form>
 		</section>
 
