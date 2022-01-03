@@ -142,20 +142,6 @@ nav a:hover {
 	right: 0;
 	margin-bottom: 5px;
 }
-
-.rodape {
-	background-image: url("/imagens/bg.jpg");
-	display: flex;
-	flex-direction: column;
-}
-
-.rodape p {
-	color: white;
-	font-size: 1.2em;
-	font-weight: bold;
-	text-shadow: 1px 1px black;
-	margin-bottom: 10px;
-}
 /* fim da formatação da página de produtos */
 
 
@@ -292,3 +278,58 @@ textarea {
 	background-color: goldenrod;
 }
 /* fim da formatação da página de contatos */
+
+
+
+/* início da formatação do rodapé*/
+.rodape {
+	background-image: url("/imagens/bg.jpg");
+	display: flex;
+	flex-direction: column;
+}
+
+.display-rodape {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.logo-rodape {
+	margin-left: 30%;
+}
+
+.div-tabela {
+	margin-left: 60%;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.tabela {
+	border: 1px solid white;
+	padding: 15px;
+	width: 260px;
+	height: 100%;
+}
+
+.tabela thead {
+	background-color: white;
+	color: goldenrod;
+}
+
+.tabela th {
+	padding: 7px;
+}
+
+.tabela tbody tr td {
+	color: white;
+}
+
+.rodape p {
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	margin-bottom: 10px;
+}
+/* fim da formatação do rodapé*/
