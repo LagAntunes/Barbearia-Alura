@@ -23,6 +23,11 @@ body {
 	padding: 100px;
 }
 
+#botao-inicial {
+	margin-top: 15px;
+	padding: 10px;
+}
+
 .principal{
 	background: #CCCCCC;
 	padding: 30px;
