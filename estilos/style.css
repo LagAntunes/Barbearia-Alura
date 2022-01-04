@@ -11,6 +11,16 @@ body {
 
 #banner {
 	width:100%;
+	height: 100%;
+	background-image: url("/imagens/banner.jpg");
+	background-attachment: fixed;
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#div-banner{
+	padding: 100px;
 }
 
 .principal{
