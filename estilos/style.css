@@ -35,7 +35,7 @@ body {
 
 #botao-inicial {
 	width: 30%;
-	padding: 7px;
+	padding: 10px;
 	border-radius: 10px;
 	font-size: 1.1em;
 	font-weight: bold;
@@ -53,8 +53,14 @@ body {
 }
 
 .principal{
-	background: #CCCCCC;
-	padding: 30px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.principal-missao {
+	display: flex;
+	flex-direction: column;
 }
 
 .titulo-principal {
@@ -62,11 +68,20 @@ body {
 }
 
 .titulo-centralizado {
-	text-align: center
+	text-align: center;
+	margin-bottom: 15px;
+	color: goldenrod;
+	text-shadow: 1px 1px #CCCCCC;
+}
+
+.strong-alura {
+	color: gold;
+	text-shadow: 1px 1px black;
 }
 
 p {
 	text-align: center;
+	font-size: 1.4em;
 }
 
 #missao {
