@@ -72,6 +72,7 @@ body {
 	margin-bottom: 15px;
 	color: goldenrod;
 	text-shadow: 1px 1px #CCCCCC;
+	font-size: 2em;
 }
 
 .strong-alura {
@@ -82,6 +83,7 @@ body {
 p {
 	text-align: center;
 	font-size: 1.4em;
+	margin-bottom: 20px;
 }
 
 #missao {
