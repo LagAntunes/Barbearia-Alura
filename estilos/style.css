@@ -12,7 +12,7 @@ body {
 #banner {
 	width:100%;
 	height: 100%;
-	background-image: url("/imagens/banner.jpg");
+	background-image: url("../imagens/banner.jpg");
 	background-attachment: fixed;
 	background-position:center;
 	background-size: cover;
@@ -377,7 +377,7 @@ textarea {
 
 /* início da formatação do rodapé*/
 .rodape {
-	background-image: url("/imagens/bg.jpg");
+	background-image: url("../imagens/bg.jpg");
 	display: flex;
 	flex-direction: column;
 }
